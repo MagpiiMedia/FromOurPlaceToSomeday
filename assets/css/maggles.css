@@ -1,0 +1,30 @@
+form{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+    font-size: 0.9rem;
+}
+
+button, input, textarea{
+	width: 100%;
+    font: inherit;
+    margin-bottom: 1em;
+    padding: 0.6rem 0.9rem;
+    border: 1px #eee solid;
+    border-radius: .3rem;
+}
+
+button{
+	color: #fff;
+    text-align: center;
+    background-color: #159957;
+    width: 33%;
+}
+
+.logo{
+	 display: block; 
+	 margin-bottom: 1em;
+	 width:100%;
+}
+.logo img{
+	 max-width: 100%;
+}
