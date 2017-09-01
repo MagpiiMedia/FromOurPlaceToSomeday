@@ -5,9 +5,7 @@
   	<meta name="description" content="">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<meta name="theme-color" content="#157878">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
@@ -17,23 +15,20 @@
 	</head>
 	<body>
   	<section class="page-header">
-        <a href="./" class="logo"><img src="images/magpii-logo_white.png"></a>
-        <h2>Bringing scale to the personal touch.</h2>
-        <a class="btn" href="index.html">Our Mission</a>
-        <a class="btn" href="dynamically-created-highly-personalized-direct-mail.html">What We Do</a>
-        <a class="btn" href="contact.html">Contact Us</a>
+        <h1>You're invited</h1>
+        <h2>to the wedding of Brian Sullivan &amp; Candice Lukassen</h2>
+        
     </section>
 
  		<section class="main-content">
-    	<h1>You're Invited to the wedding of Brian Sullivan &amp; Candice Lukassen - 11/18/2017!</h1>
 			<h2>RSVP</h2>
       <p>Please Respond by 10/18.</p>
       <form method="POST" action="http://formspree.io/sulligraph@gmail.com">
         <input type="text" name="firstname" placeholder="First Name" required>
         <input type="text" name="lastname" placeholder="Last Name" required>
         <input type="email" name="_replyto" placeholder="Your email">
-        <input type="radio" name="response" value="Accept" checked>joyfully accept<br>
-        <input type="radio" name="response" value="Decline">regretfully decline<br>
+        <input id="1" type="radio" name="response" value="Accept" checked><label for="1">joyfully accept</label>
+        <input id="2" type="radio" name="response" value="Decline"><label for="2">regretfully decline</label>
         <input type="number" name="attendees" placeholder="Attendees" required>
         <textarea name="message" placeholder="Your message"></textarea>
         <button type="submit">Send</button>
