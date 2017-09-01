@@ -5,12 +5,12 @@ form{
 }
 
 button, input, textarea{
+	min-width: 100%;
     font: inherit;
     margin-bottom: 1em;
     padding: 0.6rem 0.9rem;
     border: 1px #eee solid;
     border-radius: .3rem;
-
 }
 
 button{
